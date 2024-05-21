@@ -1,0 +1,32 @@
+.menu {
+    background-color: #668255;
+    display: flex;
+    align-items: center;
+}
+
+.button-container {
+    margin-left: auto;
+    display: flex;
+    gap: 10px;
+    margin-right: 30px;
+}
+
+.menu button {
+    border: none;
+    background-color: #668255;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;;
+}
+
+.menu .login {
+    background-color: #25371A;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+}
+
+.menu .login:hover {
+    transform: scale(1.05);
+}
