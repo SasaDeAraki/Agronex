@@ -6,7 +6,7 @@ const Menu = () => {
             <img src='/img/agronex-logo.png' alt='Agronex logo'></img>
             <form>
                 <input className='barraPesquisa' type="text" placeholder="Buscar.."></input>
-                <input className='enviar' type='submit'></input>
+                <input className='enviar' type='submit' />
             </form>
             <div className='button-container'>
                 <button>Sobre nós</button>

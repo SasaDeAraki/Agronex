@@ -7,7 +7,6 @@
 
 .button-container {
     display: flex;
-    gap: 10px;
 }
 
 .button-container button {
@@ -17,6 +16,7 @@
     font-weight: bold;
     font-size: 16px;
     cursor: pointer;
+    margin-right: 10px;
 }
 
 .menu form {
@@ -31,12 +31,12 @@
     padding: 10px 65px 10px 10px;
     border: 1px solid #25371A;
     font-size: 16px;
-    margin-left: 13%;
+    margin-left: 125px;
 }
 
 .enviar {
     position: absolute;
-    right: 70px;
+    right: 55px;
     top: 50%;
     transform: translateY(-50%);
     color: white;
