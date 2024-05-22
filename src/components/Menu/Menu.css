@@ -1,5 +1,4 @@
 .menu {
-    background-color: #668255;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -11,49 +10,59 @@
 
 .button-container button {
     border: none;
-    background-color: #668255;
-    color: white;
-    font-weight: bold;
+    background-color: transparent;
     font-size: 16px;
     cursor: pointer;
     margin-right: 10px;
+    white-space: nowrap;
 }
 
 .menu form {
     position: relative;
-    flex-grow: 1;
-    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
-.barraPesquisa {
-    border-radius: 5px;
-    width: 70%;
-    padding: 10px 65px 10px 10px;
-    border: 1px solid #25371A;
-    font-size: 16px;
-    margin-left: 125px;
+.barra-pesquisa {
+    border-radius: 5px 0 0 5px;
+    border: 1px solid black;
+    height: 26px;
+    width: 100%;
+    max-width: 300px;
 }
 
 .enviar {
-    position: absolute;
-    right: 55px;
-    top: 50%;
-    transform: translateY(-50%);
     color: white;
-    padding: 11px 10px;
-    border-radius: 5px;
+    padding: 5px; 
+    border-radius: 0 5px 5px 0;
     border: 1px solid black;
-    background-color: #668255;
+    background-color: #7AC18E;
     cursor: pointer;
+    width: 30px; 
+    height: 30px; 
+    justify-content: center; 
+    align-items: center; 
+    display: flex;
+    right: 0;
+}
+
+.enviar-icon {
+    width: 20px; 
+    height: 20px; 
 }
 
 .menu .login {
-    background-color: #25371A;
+    background-color: #7AC18E;
     border-radius: 20px;
     height: 30px;
     width: 100px;
+    color: white;
 }
 
 .menu .login:hover {
     transform: scale(1.05);
+    background-color: #92d3a4;
+
 }
